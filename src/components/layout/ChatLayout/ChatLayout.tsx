@@ -55,7 +55,7 @@ export default function ChatLayout() {
                 message.role === "assistant"
                   ? "self-start bg-gray-200 text-gray-800"
                   : "self-end bg-gray-800 text-gray-50"
-              } `}>
+              }`}>
                 {message.content}
               </div>
             )
